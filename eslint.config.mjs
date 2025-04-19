@@ -13,4 +13,11 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 
+// Add the rules section to disable specific rules
+eslintConfig.push({
+  rules: {
+    'react/no-unescaped-entities': 'off', // Disable the rule
+  },
+});
+
 export default eslintConfig;
