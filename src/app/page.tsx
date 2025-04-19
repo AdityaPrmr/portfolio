@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiArrowRight, FiX, FiCheck, FiAlertCircle } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiArrowRight, FiX, FiCheck, FiAlertCircle } from 'react-icons/fi';
 import { HiOutlineSparkles } from 'react-icons/hi';
 
 interface CursorPosition {
